@@ -19,10 +19,13 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: const Text('MyApp'),
           ),
-          body: const Text('Hello eiei',style: TextStyle(
-            fontSize: 22,
-            fontWeight: FontWeight.bold,
-          ),),
+          body: Column(
+            children: [
+              Text('Hello cs MB test'),
+              Text('kmutnb'),
+            ],
+          )
+          // Text('kmutnb'),
           ),
         );
   }

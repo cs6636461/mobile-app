@@ -21,9 +21,14 @@ class MyApp extends StatelessWidget {
           ),
           body: Column(
             children: [
-              Text('Hello cs MB test'),
-              Text('kmutnb'),
-              Text('BKK TH')
+              Text('Hello CS MB test'),
+              Text('MB KMUTNB'),
+              ElevatedButton(onPressed: () {
+                debugPrint("btn pressed");
+              },
+               child: Text("OK Button",
+                style: TextStyle(fontSize: 24),)
+             ),
             ],
           )
           // Text('kmutnb'),

@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
             children: [
               Text('Hello cs MB test'),
               Text('kmutnb'),
+              Text('BKK TH')
             ],
           )
           // Text('kmutnb'),
